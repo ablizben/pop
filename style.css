@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -124,4 +124,88 @@ html {
   stroke-width: 2 !important;
   stroke-linecap: round !important;
   stroke-linejoin: round !important;
+}
+
+/* BANNER */
+
+.banner_title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+  margin: 0 0 48px;
+  color: #fff;
+  z-index: 21;
+  position: relative;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.banner_desc {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  color: rgba(229, 235, 255, 0.8);
+  text-align: center;
+}
+
+.banner_title,
+.banner_desc {
+  margin-top: 24px;
+}
+
+.banner_actions {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 21;
+  position: relative;
+}
+
+.form-control input {
+  padding: 0 24px;
+  height: 60px;
+  border-radius: 3px;
+  font-size: 19px;
+  flex: 1 1 auto;
+  min-height: 100%;
+  border: none !important;
+  padding: 0 16px;
+  height: 56px;
+  border-radius: 3px;
+  font-size: 17px;
+  display: block;
+  width: 100%;
+  transition: border 0.3s linear;
+  appearance: none;
+  color: #525666;
+  box-shadow: none;
+}
+
+input {
+  padding: 0 24px;
+  height: 60px;
+  border-radius: 3px;
+  font-size: 19px;
+  min-height: 100%;
+  border: none !important;
+  margin-left: 16px;
+  font-weight: 300;
+  height: 56px;
+}
+
+.create-account {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0 24px;
+  height: 56px;
+  border-radius: 3px;
+  color: #fff;
+  background: #007bfc;
+  margin-left: 16px;
 }
