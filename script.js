@@ -5,10 +5,10 @@
 //     dataType: "jsonp",
 //     // contentType: "application/json; charset=utf-8",
 //     crossDomain: true,
-//     // data: {
-//     //     "per_page" : 100,
-//     //     "cursor" : "next"
-//     // }
+//     data: {
+//         "per_page" : 100,
+//         "cursor" : "next"
+//     }
 //     }).then(function(response) {
 //         console.log(response);
     

@@ -132,7 +132,7 @@ h6 {
   transition: 0.4s;
 }
 
-.fa {
+.fa-angle-down {
   width: 18px !important;
   height: 18px !important;
   stroke: #fff !important;
@@ -364,11 +364,25 @@ footer .nav_link:hover {
   margin-right: 200px;
 }
 
-.footer_socials img:hover {
-  /* width: 27px; */
+.footer_socials img {
+  width: 27px;
   height: auto;
   opacity: 0.5;
   transition: opacity 0.3s ease;
+  color: rgba(229, 235, 255, 0.56);
+  margin-left: 24px;
+}
+
+.footer_social_color {
+  filter: invert(95%) sepia(81%) saturate(2038%) hue-rotate(179deg)
+    brightness(105%) contrast(103%);
+  opacity: 0.5;
+}
+
+.footer_social_color:hover {
+  filter: invert(100%) sepia(0%) saturate(3742%) hue-rotate(294deg)
+    brightness(120%) contrast(106%);
+  opacity: 1;
 }
 
 footer a {
@@ -376,6 +390,7 @@ footer a {
   vertical-align: middle;
   border-style: none;
   color: rgba(229, 235, 255, 0.56);
+  text-decoration: none !important;
 }
 
 .footer_bottom {
