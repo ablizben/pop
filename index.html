@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -15,14 +15,16 @@
         content="Vultr Global Cloud Hosting - Brilliantly Fast SSD VPS Cloud Servers. 100% KVM Virtualization">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <!-- Fix chrome language detection -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="Content-Language" content="en-US">
 </head>
 
 <body>
     <div class="site">
         <div class=navbar_banner_background>
             <div class="navbar_container">
-                <div class="logo"><img src="./img/logo.png"></div>
+                <div class="logo"><img src="./img/logo.png" alt="Vultr Logo"></div>
                 <div class="navbar_menu">
                     <ul>
                         <li class="links">
@@ -60,12 +62,8 @@
                         </li>
                     </ul>
                 </div>
-
-
             </div>
-
             <header class="site_banner">
-
                 <div class="container">
                     <div class="banner_content">
                         <h1 class="banner_title">Points of Presence</h1>
@@ -88,18 +86,222 @@
 
             </header>
         </div>
-
-
         <div class="bottom_section">
             <h1 class="section_title">Browse all of our current PoPs in the globe!</h1>
             <p class="section_desc">17 worldwide locations</p>
             <div class="locations"></div>
         </div>
 
+        <footer class="site_footer">
+            <div class="container">
+                <div class="footer_site_map">
+                    <div class="row">
+                        <div class="footer_column col-md-3">
+                            <h3 class="footer_title h6">Products</h3>
+                            <ul class="footer_nav">
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/products/cloud-compute/">Cloud
+                                        Compute</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link"
+                                        href="https://www.vultr.com/products/high-frequency-compute/">High
+                                        Frequency
+                                        Compute</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/products/bare-metal/">Bare
+                                        Metal</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/products/object-storage/">Object
+                                        Storage</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/products/block-storage/">Block
+                                        Storage</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/products/dedicated-cloud/">Dedicated
+                                        Instances</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/products/ddos-protection/">DDOS
+                                        Protection</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/products/direct-connect/">Direct
+                                        Connect</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/products/load-balancers/">Load
+                                        Balancers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_column col-md-3">
+                            <h3 class="footer_title h6">Features</h3>
+                            <ul class="footer_nav">
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/features/datacenter-locations/">Data
+                                        Center Locations</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link"
+                                        href="https://www.vultr.com/features/advanced-networking/">Advanced Network</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/features/control-panel/">Control
+                                        Panel</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link"
+                                        href="https://www.vultr.com/features/operating-systems/">Operating Systems</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/features/upload-iso/">Upload ISO</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/features/one-click-apps/">One-click
+                                        Apps</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/features/bgp/">Bring your IP
+                                        space</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_column col-md-3">
+                            <h3 class="footer_title h6">Resources</h3>
+                            <ul class="footer_nav">
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/resources/faq/">FAQ</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/resources/developers/">Developers /
+                                        APIs</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/resources/docs/">Vultr Docs</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link"
+                                        href="https://www.vultr.com/resources/benchmarks/">Benchmarks</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://status.vultr.com/">Server Status</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/bug-bounty">Bug Bounty</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/coupons/">Coupons</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/resources/partners/">Solution
+                                        Partners</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_column col-md-3">
+                            <h3 class="footer_title h6">Company</h3>
+                            <ul class="footer_nav">
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/company/our-team">Our Team</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/news/">News</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/company/brand-assets/">Brand
+                                        Assets</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/company/referral-program/">Referral
+                                        Program</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/company/careers/">Careers</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/company/sla/">SLA</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/legal/tos/">Legal</a>
+                                </li>
+                                <li class="nav_item">
+                                    <a class="nav_link" href="https://www.vultr.com/company/contact/">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer_social_nav">
+                    <p>
+                        Over 40,000,000 Cloud Servers Launched
+                    </p>
+                    <div class="footer_socials">
+                        <a href="https://twitter.com/vultr" target="_blank">
+                            <img src="./img/twitter-brands.svg" class="footer_social_color" alt="Vultr Twitter">
+                        </a>
+                        <a href="https://www.facebook.com/Vultr" target="_blank">
+                            <img src="./img/facebook-brands.svg" class="footer_social_color" alt="Vultr Facebook">
+                        </a>
+                        <a href="https://www.instagram.com/vultr_official/" target="_blank">
+                            <img src="./img/instagram-brands.svg" class="footer_social_color" alt="Vultr Instagram">
+                        </a>
+                        <a href="https://www.linkedin.com/company/vultr/" target="_blank">
+                            <img src="./img/linkedin-brands.svg" class="footer_social_color" alt="Vultr LinkedIn">
+                        </a>
+                        <a href="https://github.com/vultr/" target="_blank">
+                            <img src="./img/github-brands.svg" class="footer_social_color" alt="Vultr GitHub">
+                        </a>
+                        <a href="https://stackoverflow.com/questions/tagged/vultr" target="_blank">
+                            <img src="./img/stack-overflow-brands.svg" class="footer_social_color"
+                                alt="Vultr Stack Overflow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="footer_brand">
+                        <a href="http://www.vultr.com" class="brand__logo" data-logo=""
+                            aria-label="Vultr Main Site Link">
+                            <img src="img/signet__on-dark-blue-bg.png" alt="Vultr Logo">
+                        </a>
+                        <div class="brand_content">
+                            <div class="brand_title">© Vultr 2021</div>
+                            <p class="brand_desc">VULTR is a registered trademark of The Constant Company, LLC.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer_bottom_nav">
+                        <li class="nav_item">
+                            <a class="nav_link" href="https://www.vultr.com/legal/tos/">Terms of Service</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="https://www.vultr.com/legal/use_policy/">AUP/DMCA</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="https://www.vultr.com/legal/privacy/">Private Policy</a>
+                        </li>
+                        <li class="nav_item">
+                            <a class="nav_link" href="https://www.vultr.com/legal/cookie_policy/">Cookie Policy</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
     </div>
 
 
-    <script src=" script.js"></script>
+    <script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>
