@@ -409,9 +409,17 @@ footer a {
   justify-content: flex-start;
   align-items: center;
   color: #fff;
+  flex: 1 0 auto;
 }
 
-.footer_brand .brand_logo svg {
+.footer_brand img {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+footer svg {
   overflow: visible;
   flex: 1 0 auto;
   padding-left: 1px;
