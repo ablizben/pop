@@ -72,9 +72,8 @@ function animateValue(obj, start, end, duration) {
       if ((element_bottom_position >= window_top_position) &&
         (element_top_position <= window_bottom_position)) {
         $element.addClass('in-view');
-      } else {
-        $element.removeClass('in-view');
-      }
+      } 
+
     });
   }
   
@@ -86,16 +85,17 @@ function animateValue(obj, start, end, duration) {
 
 $(".location-na").click(function() {
     $(".na-container").slideToggle(1000);
+
 })
 
 $(".location-eur").click(function() {
-    $(".eur-container").toggle();
+    $(".eur-container").slideToggle(1000);
 })
 
 $(".location-asia").click(function() {
-    $(".asia-container").toggle();
+    $(".asia-container").slideToggle(1000);
 })
 
 $(".location-aus").click(function() {
-    $(".aus-container").toggle();
+    $(".aus-container").slideToggle(1000);
 })
