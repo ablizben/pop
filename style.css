@@ -652,6 +652,12 @@ footer a {
   outline: none;
 }
 
+.btn-floating {
+  color: #007bfc;
+  border: none;
+  background-color: transparent;
+}
+
 /* Media Queries*/
 
 @media (max-width: 1011px) {
