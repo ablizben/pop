@@ -484,6 +484,10 @@ footer a {
   flex-shrink: 0;
 }
 
+.footer_bottom_nav ul {
+  display: flex;
+}
+
 .footer_bottom .nav_item {
   position: relative;
   min-height: 56px;
