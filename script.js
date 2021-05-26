@@ -1,4 +1,4 @@
-// $(document).ready(function () {    
+$(document).ready(function () {    
 // $.ajax({
 //     url: "https://api.vultr.com/v2/regions",
 //     type: 'GET',
@@ -16,26 +16,7 @@
 //  });
 // })
 
-// $.ajax({
-//     type: 'GET',
-//     url: 'https://api.vultr.com/v2/regions',
-//     data: {
-//         "per_page" : 100,
-//         "cursor" : "next"
-//     },
-//     async: false,
-//     headers: {
-//         'Content-Type' : 'application/json'
-//     },
-//     dataType: 'jsonp',
-//     success: function (data) {
-//       console.log(data);
-//     }
-//   });
-
-
 //Animation for footer number
-
 function animateValue(obj, start, end, duration) {
     let startTimestamp = null;
     const step = (timestamp) => {
@@ -51,7 +32,6 @@ function animateValue(obj, start, end, duration) {
   
   const obj = document.getElementById("animation");
   animateValue(obj, 0, 40000000, 1000);
-
 
   //Animation for divs on scroll
   var $animation_elements = $('.animation-element');
@@ -80,9 +60,7 @@ function animateValue(obj, start, end, duration) {
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');
 
-
 //   onclick hide/show locations
-
 $(".location-na").click(function() {
     $(".na-container").slideToggle(1000);
 
@@ -98,4 +76,5 @@ $(".location-asia").click(function() {
 
 $(".location-aus").click(function() {
     $(".aus-container").slideToggle(1000);
+})
 })

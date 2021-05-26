@@ -21,6 +21,16 @@ Insert gif or link to demo
 
 ### Peformance Improvements
 
+To improve performance of the app, I utilized Lighthouse and generated a report. The
+following are my scores:
+
+|     | Lightouthouse Scores |
+| --- | -------------------- |
+| 100 | Performance          |
+| 80  | Accessibility        |
+| 73  | Best Practices       |
+| 90  | SEO                  |
+
 Tools used:
 
 - Lighthouse
