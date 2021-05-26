@@ -257,7 +257,7 @@ input {
   display: none;
 }
 
-.bottom_section {
+.location_section {
   background-color: #fff;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -603,7 +603,7 @@ footer a {
 
 .location-sites {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-right: 0;
   margin-left: 0;
 }
@@ -614,7 +614,7 @@ footer a {
 .location-aus {
   font-size: 17px;
   letter-spacing: 2px;
-  margin-left: 25px;
+  /* margin-left: 25px; */
   text-transform: uppercase;
   margin-top: 75px;
   margin-bottom: 20px;
@@ -652,6 +652,13 @@ footer a {
   input {
     display: none;
   }
+  .location-na,
+  .location-eur,
+  .location-asia,
+  .location-aus {
+    width: 150px;
+  }
+
   .brand__logo {
     display: none;
   }
