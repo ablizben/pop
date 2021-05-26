@@ -7,6 +7,8 @@ build a UI consisting of HTML, CSS, and JavaScript.
 ![CSS Badge](https://img.shields.io/badge/-CSS-01A990)
 ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-01886A)
 
+To check out an example PR, please click [here](https://github.com/ablizben/pop/pull/4).
+
 
 ## Appendix
 
@@ -85,7 +87,11 @@ Tools used:
 
 ## Roadmap
 
-- Have API actually work.
+Overall, looking at the app, there are a decent amount of fixes that should be made. The biggest one is clearly pulling data from the API call and not hard coding the data in. After an embarassingly amount of attempts to the API (you can probably see that in the backend), I decided to focus on more of the aesthetics of the page and more frontend issues. Looking back, another way I could have implemented an API call in my code was instead of hard coding anything, I could take the the JSON code and add it to a file in my own repo and then call it from there. 
+
+Below are more suggestsions/recommendations for the future of this app:
+
+- Focus on commenting code better. 
 
 - Run tests in Jest.
 
@@ -94,6 +100,10 @@ Tools used:
 
 - Make page more accessible with recommendations above.
 
+- Focus on Best Practices and make changes suggested by Lighthouse report.
+
 - Change all icons to SVG images and edit them with paths.
 
-- Make navbar actually interactive instead of just aesthetic.
+- Make navbar actually interactive instead of just for aesthetic purposes.
+
+
