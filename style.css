@@ -482,10 +482,12 @@ footer a {
 .footer_bottom_nav {
   display: flex;
   flex-shrink: 0;
+  justify-content: center;
 }
 
 .footer_bottom_nav ul {
   display: flex;
+  flex-direction: row;
 }
 
 .footer_bottom .nav_item {
@@ -814,9 +816,11 @@ footer a {
     align-items: center;
   }
 
-  .footer_bottom_nav {
+  .footer_bottom_nav ul {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-inline-start: 0 !important;
   }
 
   .brand_content {
