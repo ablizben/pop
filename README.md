@@ -8,6 +8,7 @@ build a UI consisting of HTML, CSS, and JavaScript.
 ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-01886A)
 
 To check out an example PR, please click [here](https://github.com/ablizben/pop/pull/4).
+To check out live app, please click [here](https://ablizben.github.io/pop/).
 
 
 ## Appendix
