@@ -7,35 +7,31 @@ build a UI consisting of HTML, CSS, and JavaScript.
 ![CSS Badge](https://img.shields.io/badge/-CSS-01A990)
 ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-01886A)
 
+
 ## Appendix
 
 - [Demo](#demo)
 - [Optimizations](#optimizations)
 - [Roadmap](#roadmap)
 
+
 ## Demo
 
-Insert gif or link to demo
+### Desktop View:
+
+
+![Screen Cast 2021-05-26 at 8 56 13 AM](https://user-images.githubusercontent.com/59854488/119663338-43b2c980-be00-11eb-898f-4d85aa2a770b.gif)
+
+
+### Mobile View: 
+
+![Screen Cast 2021-05-26 at 8 54 01 AM](https://user-images.githubusercontent.com/59854488/119663060-064e3c00-be00-11eb-9798-20f1c23e078b.gif)
+
+
 
 ## Optimizations
 
-### Peformance Improvements
-
-To improve performance of the app, I utilized Lighthouse and generated a report. The
-following are my scores:
-
-|     | Lightouthouse Scores |
-| --- | -------------------- |
-| 100 | Performance          |
-| 80  | Accessibility        |
-| 73  | Best Practices       |
-| 90  | SEO                  |
-
-Tools used:
-
-- Lighthouse
-
-### Accessibility
+### Accessibility:
 
 To improve accessibility of the app, I went through the following checklist:
 
@@ -69,6 +65,23 @@ Tools used:
 
 - Lighthouse
 - [WAVE](https://wave.webaim.org/)
+
+### Peformance Improvements:
+
+To improve performance of the app, I utilized Lighthouse and generated a report. The
+following are my scores:
+
+|     | Lightouthouse Scores |
+| --- | -------------------- |
+| 100 | Performance          |
+| 80  | Accessibility        |
+| 73  | Best Practices       |
+| 90  | SEO                  |
+
+Tools used:
+
+- Lighthouse
+
 
 ## Roadmap
 
